@@ -14,7 +14,7 @@ with open('config.yaml') as f:
     config = yaml.safe_load(f)
 
 dataSource = config['dataset']['name']
-file_name = 'highlevelgroups_data{dataSource}.pickle'
+file_name = f'highlevelgroups_data{dataSource}.pickle'
 with open(file_name, 'rb') as f:
     data = pickle.load(f)
 X = data['X']  
