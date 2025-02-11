@@ -1,7 +1,7 @@
 # This is a comment
 dataset:
   name: Diabetics
-  file: /Users/ch2437/code/NeuralConfidanceScore/diabetes+130-us+hospitals+for+years+1999-2008/diabetic_data.csv
+  file: data/diabetic_data.csv
   version: 1.0
 algorithms:
 #  names: [SWEDISH, SemanticGroupNet] 
